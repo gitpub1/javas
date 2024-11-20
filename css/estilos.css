@@ -1,0 +1,63 @@
+
+.miaclasse{
+    max-width: 400px;
+}
+
+
+
+.articolo{
+    display: flex;align-items: center;flex-direction: column;
+}
+
+/*sin esta clase los link estan demasiado grande por default*/ 
+.linktitle{
+    font-size: 30px;font-style: italic;text-decoration-line: none;text-decoration-color: black;
+}
+
+.titulo{
+max-width: 30%;margin: 30px;color: black;
+}
+.publicidad{
+   background-color: grey;width: 50%;margin-top: 200px;margin-bottom: 200px;
+
+}
+
+.cajagaleria{margin-top: 20%;width: 50%;        
+    margin-left: auto;
+    margin-right: auto;
+   
+   
+}
+
+#titulogaleria{
+   font-size: 50px; margin-left: auto;
+   margin-right: auto; margin-bottom: 30px;color: brown;letter-spacing: 10px;
+   
+}
+
+.cajapresupuesto{
+    display: flex;flex-direction: column;font-size: large;background-color: antiquewhite;width: 70%; margin-top: 50px;align-items: center;
+}
+
+#map { height: 600px; width: 70%; }
+/* z index 9000,si es mas bajo hay algunos elementos que sobrepasan*/
+.navb{
+    position: fixed;top: 0;z-index: 9000;width: 100%;font-size: 30px;
+}
+/*ESTE es por el position fixed del navbar*/
+#margbody{
+    margin-top: 20%;
+}
+
+#navchecked{
+    color: brown;
+}
+
+.center{
+    margin-top: 15%;
+    width: 50%;        
+    margin-left: 30%;
+    margin-right: auto;
+    justify-items: center;
+
+}
